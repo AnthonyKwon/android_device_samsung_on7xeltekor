@@ -224,8 +224,8 @@ TARGET_PROCESS_SDK_VERSION_OVERRIDE += \
 
 # SELinux
 BOARD_SEPOLICY_DIRS := device/samsung/on7xeltekor/sepolicy
-BOARD_SEPOLICY_VERS := $(PLATFORM_SDK_VERSION).0
-SELINUX_IGNORE_NEVERALLOWS := true
+include device/lineage/sepolicy/exynos/sepolicy.mk
+include device/samsung_slsi/sepolicy/sepolicy.mk
 
 # Shim
 TARGET_LD_SHIM_LIBS += \
