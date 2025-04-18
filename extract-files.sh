@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=on7xelte
+DEVICE=on7xeltekor
 VENDOR=samsung
 
 # Load extract_utils and do some sanity checks
